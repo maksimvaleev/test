@@ -1,5 +1,11 @@
 class Program
 static void Main(string[] args)
-int age=11;
-Console.Wriline("Age *2= "+age);
-age = age * 2;
+int fistNumber;
+int secondNumber;
+int result;
+Conssel.Writeline("Введите первое число");
+fistNumber = Convert.ToInt32(Conssel.ReadLine);
+Conssel.Writeline("Введите воторое число");
+secondNumber =  ToInt32(Conssel.ReadLine);
+result = fistNumber + secondNumber
+Conssel.Writeline("результат" +result);
